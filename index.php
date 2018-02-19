@@ -1,3 +1,6 @@
+<!--Editor in admin panel based on https://www.youtube.com/watch?v=Z_xN5oo_hqY
+A lot of solutions were based on answers from StackOverflow
+-->
 <!DOCTYPE html>
 <html lang = "pl">
     <head>
