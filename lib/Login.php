@@ -1,7 +1,6 @@
 <?php
 
 require_once 'lib/config.php';
-use DB as Db;
 
 class Login{
     
@@ -47,11 +46,8 @@ class Login{
     }
     /////////PRIVATE/////////////////////////////////
     private function __construct($login, $password){
-        $dsn = 'mysql:host=127.0.0.1;dbname=blog';
-        $user = 'root';
-        $passwordDb = '';
 
-        $this->pdo = new PDO($dsn, $user, $passwordDb);
+        $this->pdo = Config::getPDO();
         $this->login = $login;
         $this->password = $password;
     }
