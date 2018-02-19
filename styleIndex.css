@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+}
+.blogHeader{
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 8px;
+    font-size: 112px;
+    color: rgb(255, 215, 0);
+    text-decoration: underline;
+    width: 100%;
+    height: 140px;
+}
+.articleIntro{
+    margin-top: 100px;
+    width: 60%;
+    margin-left: 10%;
+    margin-right: 5%;
+    min-height: 400px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    float: left;
+}
+.blogNav{
+    width: 20%;
+    min-height: 500px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    position: fixed;
+    top: 190px;
+    right: 5%;
+}
+.articleTitle{
+    font-size: 36px;
+    float: left;
+    margin-left: 100px;
+}
+.articleDate{
+    font-size: 18px;
+    float: right;
+    margin-right: 100px;
+}
+.articleContent{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 100px;
+    width: 80%;
+    margin-left: 10%;
+}
+.links{
+    width: 100%;
+    text-align: center;
+    border: 0;
+    font-size: 18px;
+    background-color: rgb(200, 200, 200);
+    color: white;
+}
+.links:hover{
+    background-color: orange;
+    cursor: pointer;
+}
