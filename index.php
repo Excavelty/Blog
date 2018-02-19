@@ -6,7 +6,7 @@
         <link href = "styleIndex.css" rel = "stylesheet" />
     </head>
 <body>
-    <header class = "blogHeader"> <i><b>GOMIBLOG</b></i> </header>
+    <header class = "blogHeader"> <i><b>BLOG</b></i> </header>
     
     <article class = "articleIntro">
         <?php include("getArticle.php"); ?>
